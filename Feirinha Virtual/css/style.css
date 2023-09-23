@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
 /* Estilizar header */
 header {
     background-color: greenyellow;
@@ -61,6 +62,7 @@ img {
     color: white;
     padding: 20px 16px;
     text-decoration: none;
+    transition-duration: 0.4s;
 }
 
 .menu-lateral-esquerdo li a:hover {
@@ -114,6 +116,7 @@ img {
     width: 150px;
     height: 150px;;
     margin: 20px;
+    transition-duration: 0.4s;
 }
 
 .foto:hover {
