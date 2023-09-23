@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* Estilizar header */
+header {
+    background-color: greenyellow;
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+/* Estilizar menu */
+header nav {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 150px;
+    padding: 50px;
+}
+
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-lateral-esquerdo {
+    display: table;
+    vertical-align: middle;
+    background-color:   black;
+    font-size: 22px;
+    padding: 20px 0px;
+    color: black;
+    width: 300px;
+    height: 800px;
+}
+
+.conteudo {
+    flex: 1;
+    padding: 20px;
+}
+
+.menu-lateral-esquerdo ul {
+    list-style-type: none;
+}
+
+.menu-lateral-esquerdo li a {
+    display: block;
+    color: white;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+.menu-lateral-esquerdo li a:hover {
+    background-color: greenyellow;
+    color: black;
+    font-weight: bolder;
+}
+
+.menu-lateral-direito {
+    background-color: #f0f0f0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid #ccc;
+    width: 225px;
+}
+
+.descrição {
+    padding: 20px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.descrição ul {
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.descrição h2 {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.descrição p {
+    margin-bottom: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    width: 150px;
+    height: 150px;;
+    margin: 20px;
+}
+
+.foto:hover {
+    border: 1px solid greenyellow;
+}
+
+.foto img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Estilizar os botões */
+
+button {
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: black;
+    padding: 4px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Estilizar o footer */
+footer {
+    display: table;
+    vertical-align: middle;
+    background-color: #BDBDBD;
+    height: 10px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+}
