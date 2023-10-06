@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+}
+
+.menu-lateral-esquerdo {
+    display: flex;
+    vertical-align: middle;
+    background-color: black;
+    font-size: 22px;
+    min-width: 400px;
+    min-height: 100%;
+    justify-content: center;
+}
+
+.menu-lateral-esquerdo ul {
+    list-style-type: none;
+}
+
+.menu-lateral-esquerdo li a {
+    display: block;
+    color: white;
+    padding: 20px 16px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.menu-lateral-esquerdo li a:hover {
+    background-color: orange;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15%;
+}
+
+section img {
+    height: 250px;
+}
