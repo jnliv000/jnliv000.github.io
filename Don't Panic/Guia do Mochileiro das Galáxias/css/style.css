@@ -23,6 +23,7 @@ li a, .dropbtn {
     text-align: center;
     padding: 14px 50px;
     text-decoration: none;
+    box-shadow: 3px 7px 5px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
