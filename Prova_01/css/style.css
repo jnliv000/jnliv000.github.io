@@ -108,3 +108,22 @@ nav {
         transform: rotate(360deg);
     }
 } 
+
+/* Responsividade */
+@media screen and (max-width: 600px) {
+    /* Estilo para a barra lateral como um menu de largura total */
+    .menu-lateral-esquerdo {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    /* Estilo para o conteúdo na tela pequena */
+    .conteudo {
+        width: 100%;
+        float: none;
+    }
+}
