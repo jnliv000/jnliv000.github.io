@@ -83,6 +83,8 @@ nav {
 }
 
 .conteudo {
+    height: 1200px;
+    width: 80vw;
     display: flex;
     flex-wrap: wrap;
 }
