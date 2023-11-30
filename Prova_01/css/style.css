@@ -8,7 +8,6 @@ nav {
     display: flex;
     background-color: #B388FF;
     justify-content: center;
-
 }
 
 /*Estilizar botao */
@@ -57,14 +56,15 @@ nav {
 
 /* Menu lateral esquerdo */
 .menu-lateral-esquerdo {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     vertical-align: middle;
     background-color:#BBDEFB;
     font-size: 22px;
     padding: 20px 0px;
     color: black;
-    width: 300px;
-    height: 800px;
+    width: 20vw;
+    height: 1200px;
 }
 .menu-lateral-esquerdo ul {
     list-style-type: none;
@@ -83,8 +83,9 @@ nav {
 }
 
 .conteudo {
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-block;
+    height: 1200px;
+    width: 80vw;
 }
 
 /* Carregando */
